@@ -1,0 +1,7 @@
+not_full=FFFFFFBE not_byte=BE
+shift_full=4A8 shift_byte=A8
+bit_and=0 logical_and=1
+B5 mode=2 -> B6 preserved=1
+AA mode=1 -> A9 preserved=1
+F0 mode=3 -> F3 preserved=1
+3C mode=0 -> 3C preserved=1

@@ -1,0 +1,8 @@
+case1: a=12 b=30 ok=1 out=42
+case2: a=2147483647 b=0 ok=1 out=2147483647
+case3: a=2147483647 b=1 ok=0 out=12345
+case4: a=-2147483648 b=-1 ok=0 out=12345
+case5: a=-1 b=1 ok=1 out=0
+case6: a=-2147483648 b=2147483647 ok=1 out=-1
+case7: a=100 b=0 ok=1 out=100
+case8: a=-100 b=-200 ok=1 out=-300

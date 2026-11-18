@@ -1,0 +1,6 @@
+s=-15213 bits=C493
+widened=-15213 bits=FFFFC493
+as_unsigned_short=50323
+wide=53191 low=53191 bits=CFC7
+int_vs_unsigned=0
+long_long_vs_unsigned=1
