@@ -6,6 +6,7 @@ Oracle과 MySQL로 스키마를 만들고, 질의·제약조건·정규화·PL/S
 - `practice/`: 주차별 실습 테이블 생성 스크립트 (수업에서 제공된 샘플 데이터)
 - `assignments/`: 주차별 과제 풀이 (SQL*Plus / mysql 실행 기록 포함)
 - `practice/connect.jsp`: JSP에서 JDBC로 Oracle에 접속하는 예제. **계정·비밀번호는 자리표시자로 바꿔 두었습니다.**
+- `lectures/`: 강의 전체(SQL, 설계, 멀티유저, PL/SQL, JDBC) 개념 정리
 
 ## 주차별 핵심 개념
 | 주차 | 파일 | 개념 |
