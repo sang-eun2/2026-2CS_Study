@@ -12,7 +12,6 @@
 | [Lab02_Parser](./Lab02_Parser) | 어휘 분석(Lexer)과 구문 분석(Parser), AST 생성 | `Lexer.java`, `Parser.java`, `AST.java` |
 | [Lab03_Interpreter](./Lab03_Interpreter) | 의미론, 상태(State)와 환경, 블록 유효범위 | `Sint.java`, `State.java` |
 | [Lab04_TypeChecker_Arrays](./Lab04_TypeChecker_Arrays) | 정적 타입 검사, 배열 선언·사용·대입 | `TypeChecker.java`, `TypeEnv.java` |
-| [lectures](./lectures) | 강의 L01~L11 개념 정리 (구문·의미·타입·함수·예외·객체) | `README.md` 목차 |
 
 ## 실행 방법 (공통)
 ```sh
