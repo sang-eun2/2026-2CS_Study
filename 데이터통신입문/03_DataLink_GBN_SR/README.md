@@ -45,7 +45,4 @@ Make가 없으면 `gcc -std=c99 -O2 -o datalink main.c sim.c channel.c go_back_n
 - `채널 A→B | ✗ ... 분실`은 채널이 그 프레임을 잃어버린 시점입니다.
 
 ## 강의 코드와 다른 점 (단순화)
-- 데이터는 A→B 한 방향, ACK·NAK는 B→A로 따로 보냄 (피기백 없음)
-- ACK·NAK 전송 시간은 0, 전파 지연만 있음 (강의의 이용률 계산과 같은 가정)
-- 타이머는 프레임 전송이 **끝난 시각**부터 잼
-- `MAX_SEQ`는 `#define` 대신 변수: 실험마다 m을 바꾸기 위해서
+강의 코드(Tanenbaum)와 달라진 점과 그 이유는 [NOTES.md](./NOTES.md) 7절 표에 모아 두었습니다.

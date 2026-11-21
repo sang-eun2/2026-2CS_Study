@@ -236,6 +236,8 @@ m = 2(번호 0~3). 첫 윈도우의 데이터는 모두 도착했는데 ACK가 �
 | 송신 윈도우 검사 | `between(ack_expected, x, next_frame_to_send)` | `in_window(ack_expected, x, nbuffered)` | 뜻은 같음. 윈도우 위반 실험에서도 동작 |
 | 사건 대기 | `protocol6()` 안의 `while (true) { wait_for_event(); switch... }` | 시뮬레이터가 `sender()`·`receiver()`를 사건마다 호출 | 실제 시간 없이 재현 가능 |
 | `MAX_SEQ` | `#define MAX_SEQ 7` | 실행 중 정하는 변수 | 실험마다 m을 바꾸려고 |
+| ACK·NAK 전송 시간 | 프레임처럼 전송 시간이 있음 | 0 (전파 지연만 있음) | 강의의 이용률 계산과 같은 가정 |
+| 타이머 시작 | 프레임을 보낼 때 | 프레임 전송이 **끝난 시각**부터 | 전송 시간 T_f와 타임아웃을 분리해 보기 쉽게 |
 
 ## 8. 시험 대비 포인트
 - m비트 순서 번호 → **GBN 송신 윈도우 최대 2^m − 1, SR 최대 2^(m−1)**. 예: m = 3 → GBN 7, SR 4
