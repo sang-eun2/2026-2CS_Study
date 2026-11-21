@@ -25,8 +25,6 @@ if (b <  0 && a < INT_MIN - b) return 0;   // 음의 오버플로
 ```
 부호 있는 정수 오버플로는 C에서 **정의되지 않은 동작(UB)** 이므로, 더하기 전에 범위를 먼저 검사해야 합니다.
 
-## 빌드
-```sh
-gcc -std=c11 -Wall -Wextra -Wsign-compare bitops.c -o bitops && ./bitops
-```
+## 빌드와 실행
+빌드·실행 명령은 같은 폴더의 [README.md](./README.md)에 있습니다.
 `*.txt` 파일은 실행 결과입니다.

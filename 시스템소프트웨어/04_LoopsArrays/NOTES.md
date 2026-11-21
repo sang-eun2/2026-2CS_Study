@@ -22,9 +22,5 @@ gcc는 `-Og`에서 jump-to-middle을, `-O1` 이상에서 guarded-do를 주로 �
 - `dot_product`: 두 배열을 같은 인덱스로 순회하며 곱해서 누적
 - `max2`: 두 값 중 큰 값 (`cmp` + 조건부 이동/분기)
 
-## 빌드와 테스트
-```sh
-nasm -f elf64 loops.asm -o loops.o
-nasm -f elf64 test_helpers.asm -o test_helpers.o
-gcc -g test_loops.c loops.o test_helpers.o -o loops && ./loops
-```
+## 빌드와 실행
+빌드·실행 명령은 같은 폴더의 [README.md](./README.md)에 있습니다.
